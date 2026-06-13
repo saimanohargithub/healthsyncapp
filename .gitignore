@@ -1,0 +1,25 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase config (contains project-specific API keys)
+app/google-services.json
+google-services.json
+
+# Test credentials and DAST reports
+**/input.json
+**/automated_test/report.json
+**/automated_test/savepoint.json
+**/automated_test/results_*.json
